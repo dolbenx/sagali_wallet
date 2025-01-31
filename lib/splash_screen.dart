@@ -12,6 +12,7 @@ class SplashScreen extends StatefulWidget {
     required this.walletRepository,
   });
 
+
   final VoidCallback pushToCreateWallet;
   final VoidCallback pushToHome;
   final WalletRepository walletRepository;

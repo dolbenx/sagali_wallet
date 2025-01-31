@@ -181,7 +181,7 @@ class _ChannelListWidgetState extends State<ChannelListWidget> {
         nodeId: channel.counterpartyNodeId,
       );
     } catch (e) {
-      BijliFlushbar.showFlushbar(
+      SagaliFlushbar.showFlushbar(
         context,
         message: e.toString(),
       );

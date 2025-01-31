@@ -79,7 +79,7 @@ class _CopyIcon extends StatelessWidget {
       icon: const Icon(Icons.copy_outlined),
       onPressed: () {
         Clipboard.setData(ClipboardData(text: address));
-        BijliFlushbar.showFlushbar(
+        SagaliFlushbar.showFlushbar(
           context,
           message: 'Deposit address was copied to your clipboard.',
         );

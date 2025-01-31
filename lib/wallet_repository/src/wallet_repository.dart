@@ -136,7 +136,7 @@ class WalletRepository {
       amountMsat: amountSat * 1000,
       description: (description != null && description.trim().isNotEmpty)
           ? description
-          : 'Bijli Invoice',
+          : 'Sagali Invoice',
       expirySecs: 10000,
     );
     logger.d('[WalletRepository] Invoice: ${invoice.internal}');
@@ -149,7 +149,7 @@ class WalletRepository {
       nodeId: await ldkNode.nodeId(),
       description: (description != null && description.trim().isNotEmpty)
           ? description
-          : 'Bijli Invoice',
+          : 'Sagali Invoice',
       expirySecs: 10000,
     );
     logger.d('[WalletRepository] Zero sat invoice: ${invoice.internal}');

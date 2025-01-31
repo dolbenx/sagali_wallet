@@ -48,7 +48,7 @@ class _SendOffChainScreenState extends State<SendOffChainScreen> {
           builder: (_) => widget.onInvoiceParsedSuccess(invoice),
         );
       } catch (e) {
-        BijliFlushbar.showFlushbar(
+        SagaliFlushbar.showFlushbar(
           context,
           message: e.toString(),
         );

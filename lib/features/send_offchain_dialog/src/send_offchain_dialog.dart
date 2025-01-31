@@ -100,7 +100,7 @@ class _SendOffChainDialogViewState extends State<_SendOffChainDialogView> {
         final hasSubmissionError =
             state.submissionStatus == SubmissionStatus.sendPaymentError;
         if (hasSubmissionError) {
-          BijliFlushbar.showFlushbar(
+          SagaliFlushbar.showFlushbar(
             context,
             message: 'There has been an error while paying this invoice.',
             duration: const Duration(seconds: 3),

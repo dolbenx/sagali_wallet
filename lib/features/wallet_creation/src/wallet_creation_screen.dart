@@ -28,7 +28,7 @@ class _WalletCreationScreenState extends State<WalletCreationScreen> {
       widget.onCreateWalletSuccess();
     } catch (e) {
       setState(() => isSubmissionInProgress = false);
-      BijliFlushbar.showFlushbar(context, message: e.toString());
+      SagaliFlushbar.showFlushbar(context, message: e.toString());
     }
   }
 

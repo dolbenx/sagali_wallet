@@ -97,7 +97,7 @@ class __SendOnChainFormState extends State<_SendOnChainForm> {
         final hasSubmissionError =
             state.submissionStatus == SubmissionStatus.genericError;
         if (hasSubmissionError) {
-          BijliFlushbar.showFlushbar(
+          SagaliFlushbar.showFlushbar(
             context,
             message:
                 'Payment Failed: Please check your payment details and try again',

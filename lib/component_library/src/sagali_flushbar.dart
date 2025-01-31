@@ -2,7 +2,7 @@ import 'package:another_flushbar/flushbar.dart';
 import 'package:bitcoin_ui_kit/bitcoin_ui_kit.dart';
 import 'package:flutter/material.dart';
 
-class BijliFlushbar {
+class SagaliFlushbar {
   static const top = FlushbarPosition.TOP;
 
   static Flushbar showFlushbar(

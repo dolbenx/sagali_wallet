@@ -17,7 +17,7 @@ class SyncingView extends StatelessWidget {
               ),
               fit: BoxFit.cover,
             ),
-            Text('Bijli is syncing your node...')
+            Text('Sagali is syncing your node...')
           ],
         ),
       ),

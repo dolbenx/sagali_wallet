@@ -121,7 +121,7 @@ class __OpenChannelFormState extends State<_OpenChannelForm> {
         final hasSubmissionError =
             state.submissionStatus == SubmissionStatus.genericError;
         if (hasSubmissionError) {
-          BijliFlushbar.showFlushbar(
+          SagaliFlushbar.showFlushbar(
             context,
             message:
                 'Oops! We encountered an issue while trying to open a payment channel. Please try again later.',
